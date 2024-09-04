@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servlet Example</title>
+    <style>
+        .container{
+            width: 40vw;
+            height: 40vh;
+            border: 2px solid black;
+            border-radius: 10px;
+            margin : 20px auto;
+            padding: 20px;
+        }
+        .box{
+            margin: 10px;
+            padding: 10px;
+            text-align: center;
+        }
+        #v{
+            border-radius: 10px;
+            color: blue;
+            background-color: rgb(76, 243, 76);
+            cursor: pointer;
+        }
+        #v:hover{
+            background-color: pink;
+        }
+        #v:active{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+   <form action="a3" >
+    <div class="container">
+        <div class="box">
+            <label for="username">Name : </label>
+            <input type="text" id="username" name="username" placeholder="Enter your name">
+        </div>
+        <div class="box">
+            <input type="submit" value="submit" id="v">
+        </div>
+    </div>
+   </form>
+</body>
+</html>
